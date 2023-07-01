@@ -1,0 +1,269 @@
+.header-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: start;
+}
+
+
+header .fixed-header:before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    background-color: #FAF9F6;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+header .animate-logo {
+    animation: 1s cubic-bezier(0.215, 061, 0.355, 1) both;
+}
+
+.header-container .animate-subtitle {
+    animation: 0.5s ease-in-out 100ms both;
+}
+
+header .animate-text-1 {
+    animation: 0.5s ease-in-out both;
+
+}
+
+@media screen and (max-width: 720px) {
+    header h2 {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 960px) {
+  header h2 {
+    font-size: 1.5rem;
+  }
+}
+
+header h2 {
+    max-width: 65ch;
+    font-weight: 200;
+    color: #3d3d3d;
+    margin: 0;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 720px) {
+  .logo {
+    font-size: 1rem;
+  }
+}
+
+
+.logo {
+    text-align: center;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    letter-spacing: 1px;
+}
+
+header.js-fixed {
+    height: 110vh;
+}
+
+header {
+    text-align: center;
+    position: relative;
+    height: 100vh;
+}
+
+header {
+    display: block;
+}
+
+
+header.js-fixed .fixed-header.scrolled {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+}
+
+header.js-fixed .fixed-header {
+    position: fixed;
+}
+
+header .fixed-header {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+div {
+    display: block;
+}
+header .header-text {
+    position: relative;
+}
+
+header h1 p {
+    position: relative;
+    font: inherit;
+    margin: 0;
+    width: fit-content;
+    font-weight: 600;
+    text-align: left;
+    line-height:130%;
+    letter-spacing: -0.03em;
+}
+
+
+p {
+    display: block;
+    margin-block-start: 1rem;
+    margin-inline-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+@media screen and (max-width:720px) {
+  header h1 {
+      font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width:960px) {
+  header h1 {
+    font-size: 3rem;
+  }
+}
+
+header h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+
+.fixed-header.scrolled .scroll-button {
+    opacity: 0;
+}
+
+header .animate-scroll {
+    animation: 0.5s ease-in-out 150ms both;
+}
+
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ @media screen and (max-width: 720px) {
+     .js-nav .nav-links.visible {
+         z-index: 50;
+         background-color: #fafafa;
+         visibility: visible;
+         animation: 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+     }
+ }
+
+ @media screen and (max-width: 720px) {
+     .js-nav .nav-links {
+         position: absolute;
+         padding: 2rem;
+         right: 0;
+         top: 4.5rem;
+         left: 0;
+         margin: auto;
+         display: flex;
+         flex-direction: column;
+         box-shadow: 0px 0 10px rgb(0 0 0 / 20%);
+         border-radius: 0.25em;
+         opacity: 0;
+         visibility: hidden;
+     }
+ }
+
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.menu-item {
+    color:black;
+}
+
+
+.mat-toolbar, .menu-icon {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+
+.theme-btn, .menu-btn {
+    border: none;
+    cursor: pointer;
+}
+
+
+ a {
+     text-decoration: none;
+     color: black;
+     
+ }
+
+.material-symbols-sharp {
+   
+}
+
+.nav-links {
+    display: inline-flex;
+}
+
+.arrow-btn {
+    padding-top: 14px;
+
+}
+
+.arrow-btn:hover {
+    transform: scale(1.3);
+}
+
+
+
+

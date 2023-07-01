@@ -1,0 +1,121 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+</head>
+<body>
+  <mat-toolbar>
+    <div class="logo-container">
+      <a href="/welcome" mat-btn target="_self" matTooltip="Back">
+        <span class="logo animate-logo">
+          Khethelo Njomo
+        </span>
+      </a>
+    </div>
+    <span class="example-spacer"></span>
+    <button mat-button class="theme-btn" (click)="changeTheme()">
+      <span class="material-symbols-sharp">
+        {{mode}}
+      </span>
+    </button>
+  </mat-toolbar>
+  <header class="js-fixed">
+    <div class="fixed-header animate-background scrolled">
+      <div class="container header-container">
+        <div class="about-title">
+          <h2>About</h2>
+        </div>
+        <div class="about-list">
+          <div class="background">
+            <p class="title">Background</p>
+            <ol>
+              <li>
+                I am Khethelo Njomo, born and bred in Durban, KwaZulu-Natal. I would describe myself as a person who loves
+                solving complex problems by coming up with innovative solutions.
+                I take an interactive stance to always be learning and improving in all capacities. I am passionate
+                about all things tech, from software engineering to UI/UX.
+              </li>
+              <li>
+                Consider myself an innovative thinker who s passionate technology, a keen problem solver who shows initiative
+                in finding creative solutions for a wide scope of problems.
+              </li>
+              <li>
+                On a personal front, I've always resonated with the idea of solution real world problems with technology for the betterment
+                of society. I want to be at the forefront of the tech revolution that not only build solutions that improve our lives but also
+                the environment.
+              </li>
+            </ol>
+          </div>
+        
+          <div class="skills">
+            <p class="skills">My growing skill sets includes:</p>
+            <p class="skills-sub">
+              (I like building scalable and maintainable applications that focus on the end user by increasing accessibility
+              and striving for inclusion the UI/UX space.)
+            </p>
+            <ol>
+              <li>Python</li>
+              <li>Java</li>
+              <li>C-Sharp</li>
+              <li>HTML/CSS</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+            </ol>
+            <br />
+            
+          </div>
+          <div class="experience">
+            <p class="skills">My growing skill sets includes:</p>
+            <p class="skills-sub">
+              (I like building scalable and maintainable applications that focus on the end user by increasing accessibility
+              and striving for inclusion the UI/UX space.)
+            </p>
+            <ol>
+              <li>Python</li>
+              <li>Java</li>
+              <li>C-Sharp</li>
+              <li>HTML/CSS</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+            </ol>
+            </div>
+          <div class="experience">
+            <p class="experience">Experience</p>
+            <ol>
+              <li>
+                Outsurance internship for 3 months.
+                <br />
+                <ul>
+                  This internship introduced me to wide range of frameworks, from .NET Maui to Angular.
+                  We built an applications that consumed from an API, designed the UIs for the applications
+                  and had regular demos where we would get critical feedback on how to design as well as the
+                  different materials each framework has that could aid us in building more refined application whilst
+                  taking note of user error.
+                  We also had to create and use CRUD to access the data in said database using services that remove
+                  the responsiblities of making the request from a component to the said service.
+                  It was a great experience and the exposure to the different principals of the industry will always be
+                  an advantageous exprience to have had.
+                </ul>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="cv-container">
+        <button mat-button class="cv-download-btn">
+          Download my CV
+        </button>
+      </div>
+      <br/>
+      <br/>
+    </div>
+
+  </header>
+</body>
+</html>

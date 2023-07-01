@@ -1,0 +1,146 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+</head>
+<body>
+  <mat-toolbar class="toolbar-position-fixed">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contacts">Contacts</a></li>
+    </ul>
+    <button mat-button class="theme-btn" (click)="changeTheme()">
+      <span class="material-symbols-sharp">
+        {{mode}}
+      </span>
+    </button>
+  </mat-toolbar>
+
+  <header class="js-fixed">
+    <div class="fixed-header">
+      <div class="container header-container">
+        <div class="logo-container">
+          <span class="logo animate-logo">
+            Khethelo Njomo
+          </span>
+        </div>
+        <div class="header-text">
+          <h1>
+            Junior Software Developer
+          </h1>
+        </div>
+        <h2>
+          I like building scalable applications with a focus on responsive design and accessibility.
+        </h2>
+        <br />
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="js-fixed">
+      <div class="container about-container" id="about">
+        <div class="about-title">
+          <h1>
+            About
+          </h1>
+        </div>
+        <h2 class="about-section">
+          I'm Khethelo Njomo, a dedicated tech enthusiast specializing in creating seamless web applications.
+          With expertise in both front-end and back-end development, I deliver intuitive user experiences.
+          An innovative thinker and collaborative team player, I thrive in agile environments.
+          Continually expanding my knowledge and staying current with industry trends, I aim to leverage technology for real-world impact.
+          Let's collaborate on cutting-edge solutions that enhance lives.
+          Get in touch, and let's embark on a journey of technological excellence.
+        </h2>
+      </div>
+    </div>
+    <div class="js-fixed" id="skills">
+      <div class="container skills-container" >
+        <div class="skills-title">
+          <h1>
+            Skills
+          </h1>
+        </div>
+        <div class="skills-divs">
+          <div class="skill">
+            <img src="../assets/images/backend.png" alt="backend-illustration" />
+            <h2>Software Development</h2>
+            <p>With a strong background in both functional and object-oriented programming (OOP), this individual demonstrates expertise in Python, Java,  C# and JavaScript. This diverse skill set allows them to develop efficient solutions for a wide range of projects.</p>
+          </div>
+          <div class="skill">
+            <img src="../assets/images/ui-design.png" alt="front-end dev" />
+            <h2>Frontend Development</h2>
+            <p>Passionate about UI/UX, this individual possesses extensive development experience in HTML, CSS, JavaScript, TypeScript, and frameworks like React, Next.js, Angular, and .NET MAUI.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="js-fixed">
+      <div class="container project-container" id="projects">
+        <div class="projects-title">
+          <h1>
+            Projects
+          </h1>
+        </div>
+        <div class="project-cards">
+          <div class="card card-1">
+            <img src="../assets/images/tribute_page.png" alt="tribute" class="image" />
+            <div class="img-text">
+              <div class="text">
+                <!-- Add link to github with the page-->
+                <a href="" target="_blank">
+                  <p>This is a passion project, a tribute to the profound Maya Angelou.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+            <div class="card card-2">
+              <img src="../assets/images/portfolio.png" alt="portfolio" class="image" />
+              <div class="img-text">
+                <div class="text">
+                  <a href="https://portfolio-psi-two-54.vercel.app/" target="_blank">
+                    <p>First portfolio built using React.JS, currently hosted on Vercel</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card card-3">
+              <img src="../assets/images/taskmanager.png" alt="taskmanager" class="image"/>
+              <div class="img-text">
+                <div class="text">
+                  <a href="" target="_blank">
+                    <p>Task management application with built in database.</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="js-fixed">
+      <div class="container project-container" id="contacts">
+        <div class="contacts-title">
+         <h1>
+           Contacts
+         </h1>
+        </div>
+        <div class="logo-icon">
+
+        </div>
+      </div>
+    </div>
+    
+  </main>
+  
+</body>
+</html>

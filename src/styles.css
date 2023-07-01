@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+
+.header-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  align-items: start;
+}
+
+header .fixed-header:before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  background-color: #FAF9F6;
+  width: 100%;
+  height: 50%;
+  margin: auto;
+  bottom: 0;
+  left: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}

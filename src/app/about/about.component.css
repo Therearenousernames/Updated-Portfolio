@@ -1,0 +1,152 @@
+.header-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  align-items: start;
+}
+
+header .fixed-header:before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  background-color: #FAF9F6;
+  width: 100%;
+  height: 50%;
+  margin: auto;
+  bottom: 0;
+  left: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+mat-toolbar, .theme-btn {
+  background-color: white;
+}
+
+.theme-btn {
+  border: none;
+  cursor: pointer;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.logo {
+  text-align: center;
+  text-transform: uppercase;
+  color: #3d3d3d;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+ol li {
+  list-style: square;
+  font-size: small;
+}
+
+header h1 p {
+  position: relative;
+  font: inherit;
+  margin: 0;
+  width: fit-content;
+  font-weight: 600;
+  text-align: left;
+  line-height: 130%;
+  letter-spacing: -0.03em;
+}
+
+@media screen and (max-width: 720px) {
+  header h2 {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  header h2 {
+    font-size: 1.5rem;
+  }
+}
+
+header h2 {
+  max-width: 65ch;
+  font-weight: 200;
+  color: #3d3d3d;
+  margin: 0;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.about-title {
+    position: relative;
+    animation-duration: 4s;
+    animation-name: title;
+    animation-timing-function: ease-out;
+    animation-delay: 2s;
+}
+
+@keyframes title {
+    0% {left: 0px; top: 0px;}
+    25% {left: 200px; top: 0px}
+   
+}
+
+
+.arrow-btn {
+    display: inline-block;
+}
+
+.skills-sub {
+    font-size: 12px;
+}
+
+li {
+    font-size: 12px;
+}
+
+.cv-download-btn {
+  background-color: #FAF9F6;
+  cursor: pointer;
+  border-color: #FAF9F6;
+  border-radius: 10px;
+}
+
+.cv-container {
+    margin: auto;
+    text-align: center;
+}
