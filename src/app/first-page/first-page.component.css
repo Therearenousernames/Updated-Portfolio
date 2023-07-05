@@ -1,4 +1,4 @@
-.header-container,.about-container, .skills-container, .contacts-container {
+.header-container,.about-container, .experience-container, .skills-container, .contacts-container {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -219,7 +219,7 @@ img {
     padding-right: 10px;
 }
 
-.about-container, .projects-container, .contacts-container{
+.about-container, .projects-container, .contacts-container, .experience-container{
     height: 100vh;
 }
 
@@ -227,9 +227,14 @@ img {
     height: 100vh;
 }
 
-.skill p {
+.skill p, .experience p {
   width: 65ch;
   font-weight: lighter;
+}
+
+
+.contacts p {
+    font-weight: lighter;
 }
 
 

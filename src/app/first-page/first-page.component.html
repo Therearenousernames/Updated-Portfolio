@@ -16,14 +16,15 @@
       <li><a href="#">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contacts">Contacts</a></li>
     </ul>
-    <button mat-button class="theme-btn" (click)="changeTheme()">
+    <!--<button mat-button class="theme-btn" (click)="changeTheme()">
       <span class="material-symbols-sharp">
         {{mode}}
       </span>
-    </button>
+    </button>-->
   </mat-toolbar>
 
   <header class="js-fixed">
@@ -85,6 +86,31 @@
         </div>
       </div>
     </div>
+    <div class="js-fixed" id="experience">
+      <div class="container experience-container">
+        <div class="experience-title">
+          <h1>
+            Experience
+          </h1>
+        </div>
+        <div class="experience-div">
+          <div class="experience">
+            <h2>Outsurance internship for 3 months</h2>
+            <p>
+              This internship introduced me to wide range of frameworks, from .NET Maui to Angular.
+              We built an applications that consumed from an API, designed the UIs for the applications
+              and had regular demos where we would get critical feedback on how to design as well as the
+              different materials each framework has that could aid us in building more refined application whilst
+              taking note of user error.
+              We also had to create and use CRUD to access the data in said database using services that remove
+              the responsiblities of making the request from a component to the said service.
+              It was a great experience and the exposure to the different principals of the industry will always be
+              an advantageous exprience to have had.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="js-fixed">
       <div class="container project-container" id="projects">
         <div class="projects-title">
@@ -128,19 +154,30 @@
       </div>
     </div>
     <div class="js-fixed">
-      <div class="container project-container" id="contacts">
+      <div class="container contacts-container" id="contacts">
         <div class="contacts-title">
          <h1>
            Contacts
          </h1>
         </div>
-        <div class="logo-icon">
-
+        <div class="contacts">
+          <h2>Let's work together...</h2>
+          <p>Don't be a stranger, reach on the platforms below</p>
         </div>
+        <div class="contacts-links">
+          <a id="profile-link" href="http://github.com/therearenousernames" target="_blank">
+            <img src="../assets/images/github.png"  />
+          </a>
+
+          <a href="https://www.linkedin.com/in/khethelo-njomo">
+            <img src="../assets/images/linkedin.png"  />
+          </a>
+
+            </div>
+
       </div>
     </div>
     
-  </main>
-  
+  </main>  
 </body>
 </html>
